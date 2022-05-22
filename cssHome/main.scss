@@ -1,0 +1,115 @@
+:root {
+  --primary-color: gold;
+  --prim-pad: 2em;
+  --prim-bordradius: 0.2em;
+  --black-background: #121213;
+}
+body {
+  font-family: "Poppins";
+  margin: 0;
+  button {
+    border: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    height: 2.3em;
+    border-radius: var(--prim-bordradius);
+  }
+}
+header {
+  .container {
+    padding: 0.2em 0.3em;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+  }
+
+  a.logo {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    span {
+      color: var(--primary-color);
+    }
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    li {
+      margin: 0 0.5em;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+.hero-div {
+  background: rgb(248, 243, 248);
+  margin: 0;
+  padding: 0;
+  .hero-div-margined {
+    display: flex;
+    padding: var(--prim-pad);
+    .hero-left {
+      width: 50%;
+      .learn-more {
+        margin-top: 2em;
+      }
+    }
+    img {
+      width: 50%;
+      height: 13em;
+      border-radius: var(--prim-bordradius);
+    }
+  }
+}
+
+section.home-dark-background {
+  background: var(--black-background);
+  color: white;
+  .margined-section {
+    padding: var(--prim-pad);
+    h2.dark-background {
+      width: 75%;
+    }
+    .text-flex {
+      display: flex;
+      gap: 1em;
+      p {
+        font-size: 80%;
+      }
+      margin-bottom: 2em;
+    }
+    button {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+.last-div {
+  .last-div-margined {
+    display: flex;
+    padding: var(--prim-pad);
+    gap: 1em;
+    img {
+      width: 50%;
+      height: 20em;
+      border-radius: var(--prim-bordradius);
+    }
+    .last-right {
+      width: 50%;
+      p.top-p {
+        font-size: 60%;
+        font-weight: bold;
+      }
+      p.lower-p {
+        font-size: 80%;
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+:root {
+  --primary-color: gold;
+  --prim-pad: 2em;
+  --prim-bordradius: 0.2em;
+  --black-background: #121213;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+body button {
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  height: 2.3em;
+  border-radius: var(--prim-bordradius);
+}
+
+header .container {
+  padding: 0.2em 0.3em;
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.8em;
+}
+
+header a.logo {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+header a.logo span {
+  color: var(--primary-color);
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+header ul li {
+  margin: 0 0.5em;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-div {
+  background: #f8f3f8;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-div .hero-div-margined {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: var(--prim-pad);
+}
+
+.hero-div .hero-div-margined .hero-left {
+  width: 50%;
+}
+
+.hero-div .hero-div-margined .hero-left .learn-more {
+  margin-top: 2em;
+}
+
+.hero-div .hero-div-margined img {
+  width: 50%;
+  height: 13em;
+  border-radius: var(--prim-bordradius);
+}
+
+section.home-dark-background {
+  background: var(--black-background);
+  color: white;
+}
+
+section.home-dark-background .margined-section {
+  padding: var(--prim-pad);
+}
+
+section.home-dark-background .margined-section h2.dark-background {
+  width: 75%;
+}
+
+section.home-dark-background .margined-section .text-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+section.home-dark-background .margined-section .text-flex p {
+  font-size: 80%;
+}
+
+section.home-dark-background .margined-section button {
+  margin: 0 auto;
+  display: block;
+}
+
+.last-div .last-div-margined {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: var(--prim-pad);
+  gap: 1em;
+}
+
+.last-div .last-div-margined img {
+  width: 50%;
+  height: 20em;
+  border-radius: var(--prim-bordradius);
+}
+
+.last-div .last-div-margined .last-right {
+  width: 50%;
+}
+
+.last-div .last-div-margined .last-right p.top-p {
+  font-size: 60%;
+  font-weight: bold;
+}
+
+.last-div .last-div-margined .last-right p.lower-p {
+  font-size: 80%;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,143 @@
+:root {
+  --primary-color: gold;
+  --prim-pad: 2em;
+  --prim-bordradius: 0.2em;
+  --black-background: #121213;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+body button {
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  height: 2.3em;
+  border-radius: var(--prim-bordradius);
+}
+
+header .container {
+  padding: 0.2em 0.3em;
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.8em;
+}
+
+header a.logo {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+header a.logo span {
+  color: var(--primary-color);
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+header ul li {
+  margin: 0 0.5em;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-div {
+  background: #f8f3f8;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-div .hero-div-margined {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: var(--prim-pad);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-div .hero-div-margined h2.left-services {
+  width: 50%;
+}
+
+.hero-div .hero-div-margined img {
+  width: 50%;
+  height: 13em;
+  border-radius: var(--prim-bordradius);
+}
+
+.lower-hero-div {
+  margin-top: -5em;
+  height: 5em;
+  background: var(--primary-color);
+}
+
+section.grid-section {
+  background: var(--black-background);
+  color: white;
+}
+
+section.grid-section .grid-div {
+  padding: var(--prim-pad);
+}
+
+section.grid-section .grid-div .centered-div {
+  text-align: center;
+}
+
+section.grid-section .grid-div .centered-div p {
+  margin-top: -1em;
+  font-size: 60%;
+}
+
+section.grid-section .grid-area ul.services-list {
+  gap: 1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+}
+
+section.grid-section .grid-area ul.services-list li {
+  list-style-type: none;
+}
+
+section.grid-section .grid-area ul.services-list li svg {
+  fill: var(--primary-color);
+}
+
+section.grid-section .grid-area ul.services-list li h4 {
+  font-size: 80%;
+  margin: 0;
+}
+
+section.grid-section .grid-area ul.services-list li p {
+  font-size: 60%;
+}
+
+.technology {
+  background: var(--primary-color);
+}
+
+.technology .tech-margined {
+  padding: var(--prim-pad);
+  text-align: center;
+}
+/*# sourceMappingURL=services.css.map */
